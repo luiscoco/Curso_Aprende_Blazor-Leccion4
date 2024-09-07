@@ -2,15 +2,15 @@
 
 # LECCIÓN 3: Configuración de Carpetas y Archivos de la aplicación Blazor
 
-1. **Connected Services**: esta carpeta en donde se pueden añadir los servicios como Servicios de Azure (por ejemplo para autenticación de la aplicación, almacenamiento en la nube, etc.)
+**Connected Services**: esta carpeta en donde se pueden añadir los servicios como Servicios de Azure (por ejemplo para autenticación de la aplicación, almacenamiento en la nube, etc.)
 
-2. **Dependencies**: incluye los paquetes Nuget y otras dependencias/librerías del proyecto.  
+**Dependencies**: incluye los paquetes Nuget y otras dependencias/librerías del proyecto.  
 
-3. **Properties**: esta carpeta contiene los archivos de configuración del proyecto. Por ejemplo, el archivo launchSettings.json contiene la configuración para ejecutar la aplicación en los diferentes entornos (desarrollo, producción, etc)
+**Properties**: esta carpeta contiene los archivos de configuración del proyecto. Por ejemplo, el archivo launchSettings.json contiene la configuración para ejecutar la aplicación en los diferentes entornos (desarrollo, producción, etc)
 
-4. **wwwroot**: esta carpeta include los archivos estáticos de la aplicación (página web). Por ejemplo: archivos de estilo CSS, archivos de JavaScript, Imágenes, y Fuentes (tipos de letras). 
+**wwwroot**: esta carpeta include los archivos estáticos de la aplicación (página web). Por ejemplo: archivos de estilo CSS, archivos de JavaScript, Imágenes, y Fuentes (tipos de letras). 
 
-5. **Components Folder**: en esta carpeta se incluyen los componentes UI reutilizables. Incluye dos subcarpetas: Layout y Pages.
+**Components Folder**: en esta carpeta se incluyen los componentes UI reutilizables. Incluye dos subcarpetas: Layout y Pages.
 
 **Layout**:
 
@@ -37,14 +37,14 @@ Cada página/componente está definida en un archivo .razor.
 
 Es un método para no tener que repetir los mismos @using para importar las mismas librerías en todas las páginas.
 
-6. **App.razor**: este archivo es el Componente Raíz de la aplicación. Gestiona las rutas de la aplicación, y es responsable de renderizar el layout y las paginas requeridas por el usuario.
+**App.razor**: este archivo es el Componente Raíz de la aplicación. Gestiona las rutas de la aplicación, y es responsable de renderizar el layout y las paginas requeridas por el usuario.
 
-7. **Routes.razor**: este componente contiene el mapeado de las rutas de la aplicación.
+**Routes.razor**: este componente contiene el mapeado de las rutas de la aplicación.
 
 En Blazor se definen los URLs que corresponden a cada página, y esto es normalmente gestionado por este archivo. 
 
-8. **appsettings.json**: este es el archivo de configuración de la aplicación.
+**appsettings.json**: este es el archivo de configuración de la aplicación.
 
 Normalmente guarda las configuraciones relacionadas con loggin, las URLs de las APIs, las cadenas de conexión a bases de datos, y otros datos de configuración.
 
-9. **Program.cs**: este archivo contiene el punto de entrada de la aplicación Blazor. Es donde se configura la aplicación y donde se lanza la aplicación.
+**Program.cs**: este archivo contiene el punto de entrada de la aplicación Blazor. Es donde se configura la aplicación y donde se lanza la aplicación.

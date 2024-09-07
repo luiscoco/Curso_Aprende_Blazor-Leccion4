@@ -2,6 +2,10 @@
 
 # LECCIÓN 3: Configuración de Carpetas y Archivos de la aplicación Blazor
 
+**NOTA**: El video youtube de esta Lección3 está disponible en el siguiente vínculo:
+
+https://www.youtube.com/watch?v=5MbXS5XguUg&t=2s
+
 ![image](https://github.com/user-attachments/assets/16d8752d-bceb-4405-909c-bd986cc75ebb)
 
 **Connected Services**: esta carpeta en donde se pueden añadir los servicios como Servicios de Azure (por ejemplo para autenticación de la aplicación, almacenamiento en la nube, etc.)

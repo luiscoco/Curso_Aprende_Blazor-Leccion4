@@ -12,7 +12,7 @@
 
 5. **Components Folder**: en esta carpeta se incluyen los componentes UI reutilizables. Incluye dos subcarpetas: Layout y Pages.
 
-5.1. **Layout**:
+**Layout**:
 
 **MainLayout.razor**: Este archivo incluye la disposición/configuración de la página princial de la aplicación. 
 
@@ -22,7 +22,7 @@ El cuerpo central de la página web (**@Body**) y el mensaje mostrado en caso de
 
 **NavMenu.razor**: Este componente es el menú de navegación de la aplicación. Incluye los vínculos a las diferentes páginas.
 
-5.2. **Pages**: esta carpeta include los Componentes(páginas) que integran la aplicación.
+**Pages**: esta carpeta include los Componentes(páginas) que integran la aplicación.
 Cada página/componente está definida en un archivo .razor.
 
 **Home.razor**: es la página principal que incluye el mensaje Hello World.

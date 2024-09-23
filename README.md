@@ -1,10 +1,6 @@
 # CURSO: APRENDE BLAZOR
 
-# LECCIÓN 3: Configuración de Carpetas y Archivos de la aplicación Blazor
-
-**NOTA**: El video youtube de esta Lección3 está disponible en el siguiente vínculo:
-
-https://www.youtube.com/watch?v=5MbXS5XguUg&t=2s
+# LECCIÓN 4: Configuración de Carpetas y Archivos de la aplicación Blazor
 
 ![image](https://github.com/user-attachments/assets/16d8752d-bceb-4405-909c-bd986cc75ebb)
 
